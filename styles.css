@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 80px; /* Increase the height */
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 60px;
+    margin-bottom: 20px; /* Add margin-bottom */
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 44%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5em; /* Make the text bigger */
+    text-align: left; /* Align text to the left */
+    width: 80%; /* Adjust width to ensure text is aligned properly */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; /* Add space between menu items */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a.active {
+    background-color: #333;
+    border-bottom: 3px solid white;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 26%;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add space between items */
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+aside ul li a.active {
+    background-color: #333;
+    color: white;
+    border-right: 3px solid white;
+}
+
+.body {
+    width: 75%;
+    padding: 10px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .contacts {
+    margin: 20px 0;
+}
